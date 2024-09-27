@@ -11,23 +11,23 @@
     font-size: 24px;
 }
 
-.loginContainer {
+.losContainers {
     border: 2px solid #00771a;
-    height: 400px;
+    min-height: 200px;
     width: 400px;
     border-radius: 25px;
 }
 
+.loginContainer {
+    min-height: 400px;
+}
+
 .userContainer {
-    border: 2px solid #00771a;
     min-height: 400px;
     width: 600px;
-    border-radius: 25px;
 }
 
 .adminContainer {
-    border: 2px solid #00771a;
     min-height: 200px;
     width: 600px;
-    border-radius: 25px;
 }
