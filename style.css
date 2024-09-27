@@ -31,3 +31,7 @@
     min-height: 200px;
     width: 600px;
 }
+
+.tablita {
+    text-overflow: ellipsis;
+}
