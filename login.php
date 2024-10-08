@@ -1,5 +1,5 @@
 <?php
-require_once 'Logueo.php';
+require_once 'bootstrap.php';
 
 $loguear = new Login($_POST['usuario'], $_POST['password']);
 
