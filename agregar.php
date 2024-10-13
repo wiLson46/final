@@ -1,9 +1,9 @@
 <?php
 
 try {
- //   $entityManager->persist($emp);
- //   $entityManager->flush();
- //   $respuesta['bd'] = "Se guardó exitosamente";
+    //   $entityManager->persist($emp);
+    //   $entityManager->flush();
+    //   $respuesta['bd'] = "Se guardó exitosamente";
 } catch (\Exception $e) {
     $respuesta['bd'] = "Error: " . $e->getMessage();
 }
