@@ -26,8 +26,8 @@ class Login
 
         } else {
 
-            return "Usuario o contraseña incorrectos";
-            
+            exit();
+
         }
     }
 }
