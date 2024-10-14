@@ -46,5 +46,3 @@ class Perro
         $this->cliente = $cliente;
     }
 }
-
-https://chatgpt.com/share/670482c7-2e14-8003-9abd-a0d086217216
