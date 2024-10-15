@@ -1,0 +1,16 @@
+<?php
+
+use Doctrine\ORM\EntityRepository;
+
+class PerroRepository extends EntityRepository
+{
+    public function findAllPerrosByDniCliente($dniCliente)
+    {
+        return $this->createQueryBuilder('p')
+            ->innerJoin('p.cliente', 'c')
+            ->where('c.dni = :dniCliente')
+            ->setParameter('dniCliente', $dniCliente)
+            ->getQuery()
+            ->getResult();
+    }
+}

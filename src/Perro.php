@@ -20,6 +20,8 @@ class Perro
     #[ORM\JoinColumn(name: "cliente_dni", referencedColumnName: "dni", nullable: false)]
     protected Cliente $cliente;
 
+    // cuando se hace el persist se guarda en el perro porque es la entidad que tiene el foreing key
+
     public function __construct($nombre, $edad)
     {
         $this->nombre = $nombre;
